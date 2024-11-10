@@ -1,0 +1,39 @@
+
+
+First Command
+
+	npm install vue @vitejs/plugin-vue laravel-vite-plugin --save-dev
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+setup blade file 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laravel with Vue</title>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+Run this command for router setup
+
+npm install vue-router
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+Run This Commands
+
+# Laravel server
+
+php artisan serve
+
+# Vite server
+
+npm run dev
