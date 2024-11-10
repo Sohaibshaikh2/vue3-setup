@@ -26,6 +26,15 @@ Run this command for router setup
 
 npm install vue-router
 
+
+paste on web.php file for page not found
+
+Route::get('/{pathmatch}',function(){
+    return view('welcome');
+})->where('pathMatch',".*");
+
+
+
 -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
 
 Run This Commands
